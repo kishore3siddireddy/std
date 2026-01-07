@@ -23,6 +23,7 @@ function App() {
                <Route path='/Demo' element={<Demo />}/>
                <Route path='/Demo/Sub' element={<Sub />}/>
                <Route path='/Demo/Sub2' element={<Sub2/>}/>
+               <Route path='/Demo/Sub/Notes' element={<Notes/>}/>
              </Routes>
              </BrowserRouter>
     </>

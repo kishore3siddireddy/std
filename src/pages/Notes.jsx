@@ -3,21 +3,100 @@ import React from 'react'
 function Notes() {
   return (
     <>
-     <div className="col-12">
-                <div className="col-4">
-                     
-                        <div className="card " style={{ width: "18rem" }} >
-                        <img className="card-img-top" src={Ima} alt="Card image cap"/>
-                      <div class="card-body">
-                        <h5 class="card-title">MCA 1</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="/Demo" class="btn btn-primary">Go somewhere</a>
-                        {/* <button class="btn btn-primary" onClick={() => navigate('/Demo')}>Go somewhere</button> */}
-                        {/* <Link to='/Demo'></Link> */}
+              <div className="container">
+                <div className="row">
+                  <div className="col-12 col-md-4">
+                    <div className='card-container'>
+                      <div className="card" style={{ width: "18rem" }}>
+                        {/* <img className="card-img-top" src={logo} alt="Card image cap"/> */}
+                          <div class="card-body">
+                             <h3 class="card-title">CO</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
                       </div>
-                        </div>
+        
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-4">
+                     <div className='card-container'>
+                      <div className="card" style={{ width: "18rem" }}>
+                        {/* <img className="card-img-top" src={logo2} alt="Card image cap"/> */}
+                          <div class="card-body">
+                             <h3 class="card-title">OS</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                      </div>
+        
+                    </div>
+        
+                  </div>
+                  <div className="col-12 col-md-4">
+                    <div className='card-container'>
+                      <div className="card" style={{ width: "18rem" }}>
+                        {/* <img className="card-img-top" src={logo3} alt="Card image cap" /> */}
+                          <div class="card-body">
+                             <h3 class="card-title">A/C</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                      </div>
+        
+                    </div>
+                  </div>
+                 
                 </div>
-            </div>
+                     
+              
+              </div>
+              <div className="container">
+                <div className="row">
+                  <div className="col-12 col-md-4">
+                    <div className='card-container'>
+                      <div className="card" style={{ width: "18rem" }}>
+                        {/* <img className="card-img-top" src={logo} alt="Card image cap"/> */}
+                          <div class="card-body">
+                             <h3 class="card-title">CO</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                      </div>
+        
+                    </div>
+                  </div>
+                  <div className="col-12 col-md-4">
+                     <div className='card-container'>
+                      <div className="card" style={{ width: "18rem" }}>
+                        {/* <img className="card-img-top" src={logo2} alt="Card image cap"/> */}
+                          <div class="card-body">
+                             <h3 class="card-title">OS</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                      </div>
+        
+                    </div>
+        
+                  </div>
+                  <div className="col-12 col-md-4">
+                    <div className='card-container'>
+                      <div className="card" style={{ width: "18rem" }}>
+                        {/* <img className="card-img-top" src={logo3} alt="Card image cap" /> */}
+                          <div class="card-body">
+                             <h3 class="card-title">A/C</h3>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                      </div>
+        
+                    </div>
+                  </div>
+                 
+                </div>
+                     
+              
+              </div>
     </>
   )
 }
