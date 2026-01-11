@@ -6,6 +6,7 @@ import logo4 from '../assets/c_language.jpg'
 import logo5 from '../assets/DAA.jpg'
 import logo6 from '../assets/DAA2.jpg'
 
+
 function Sub() {
   return (
     <div>
@@ -94,7 +95,7 @@ function Sub() {
                           <div class="card-body">
                              <h3 class="card-title">DMS</h3>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <a href="" class="btn btn-primary">Go somewhere</a>
                           </div>
                       </div>
         
